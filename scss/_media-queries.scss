@@ -1,0 +1,129 @@
+@media only screen and (max-width: 992px) {
+	.books-container {
+		width: 25%;
+	}
+	.artist-block {
+		width: 42%;
+		margin-bottom: 5%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.content {
+		padding: 8px 5% 50px 5%;
+	}
+	.books-container {
+		width: 42%;
+		margin-bottom: 5%;
+	}
+	.book-img-container {
+		max-height: 240px;
+		img {
+			max-height: 200px;
+		}
+	}
+	.artist-img-container {
+		max-height: 240px;
+		img {
+			max-height: 200px;
+		}
+	}
+	.artist-block {
+		.artist-name {
+			font-size: 1em;
+		}
+		.artist-medium {
+			font-size: 0.9em;
+		}
+	}
+	#logo {
+		font-size: 1.5em;
+	}
+	h1 {
+		padding: 25px 0;
+	}
+	nav ul {
+		@include flexDirectionColumn();
+		li {
+			padding: 5px 0;
+			font-size: 0.9em;
+		}
+	}
+	h2 {
+		margin: 15px 0;
+		font-size: 1.8em;
+	}
+	h3 {
+		margin: 20px 0;
+		font-size: 1.4em;
+	}
+	footer {
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#logo {
+		font-size: 1em;
+		letter-spacing: 4px;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1.1em;
+	}
+	nav ul li {
+		font-size: 0.8em;
+	}
+	.books-container {
+		.book-title {
+			font-size: 0.9em;
+		}
+		.book-author,
+		.book-desc,
+		.book-price {
+			font-size: 0.8em;
+		}
+		.book-price {
+			top: 3%;
+			right: 3%;
+		}
+	}
+	.book-img-container {
+		max-height: 200px;
+		img {
+			max-height: 180px;
+		}
+	}
+	.artist-img-container {
+		max-height: 200px;
+		img {
+			max-height: 180px;
+		}
+	}
+	.artist-block {
+		.artist-name {
+			font-size: 0.9em;
+		}
+		.artist-medium {
+			font-size: 0.8em;
+		}
+	}
+	.consignment-artists ul li {
+		padding: 5px 0;
+		font-size: 0.9em;
+	}
+	.contact-container p {
+		font-size: 0.9em;
+		line-height: 1em;
+	}
+	.intro {
+		width: 100%;
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+}

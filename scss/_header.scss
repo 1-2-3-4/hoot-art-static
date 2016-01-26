@@ -1,0 +1,59 @@
+h1 {
+	text-align: center;
+	padding: 35px 0;
+}
+
+#logo {
+	font-family: 'bebas_neuethin', Helvetica;
+	text-decoration: none;
+	font-size: 1.8em;
+	letter-spacing: 5px;
+	color: #404040;
+}
+#logo:hover {
+	color: #10D4BC;
+}
+#logo .bold {
+	font-family: 'bebas_neuebold', Helvetica;
+	border: 5px solid;
+	padding: 10px;
+}
+
+nav {
+	text-align: center;
+	// background-color: #ECECEC;
+	background-color: #404040;
+	padding: 10px 10%;
+	ul {
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+		@include flexbox();
+		@include spaceAround();
+		max-width: 1200px;
+		li {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+	}
+	a {
+		color: #808080;
+		text-decoration: none;
+		font-family: 'bebas_neuebook', Helvetica;
+		font-size: 1.5em;
+		padding: 5px 10px;
+		letter-spacing: 4px;
+	}
+	a:hover {
+		color: #10D4BC;
+	}
+}
+
+body.artists a.artists, 
+body.books-link a.books-link, 
+body.contact a.contact,
+body.exhibitions a.exhibitions {
+	color: #10D4BC;
+}
+
