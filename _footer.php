@@ -2,6 +2,7 @@
 	<p>&copy; 2016 Hoot Art Gallery</p>
 	<p>221 State Highway 165, Placitas NM 87043</p>
 	<p>505.867.5383 | T-F 11-5, S-Su 10-3</p>
+	<p><a href="https://www.facebook.com/HootGallery/" target="_blank" class="fb"><i class="fa fa-facebook-official"></i></a></p>
 	<p>Built by <a href="http://www.nicolekuprienko.com/">Nicole Kuprienko</a></p>
 </footer>
 <!-- SCRIPTS -->
